@@ -1,0 +1,171 @@
+.News{
+    color: white;
+}
+/* head */
+.newshead{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.newshead span{
+    color: #E87D0E;
+    font-weight: 400;
+    font-size: 16px;
+}
+.newshead h2{
+    font-weight: 600;
+    font-size: 33px;
+}
+.newshead p{
+    font-weight: 500;
+    font-size: 16px;
+}
+.searchbar{
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    margin: 5%;
+}
+.searchbar input{
+    width: 20%;
+    padding: 10px;
+    background: #1C140F;
+    border-radius: 10px;
+    border: 0;
+}
+
+/* CONTENT */
+
+.content{
+    display: flex;
+    justify-content: space-evenly;
+}
+.incontent{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+#incontent1{
+    margin-left: 8%;
+    margin-top: 0%;
+    justify-content: space-around;
+}
+.in1{
+    margin-bottom: 50%;
+    width: 100%;
+}
+.in1 img{
+    width: 100%;
+}
+.button1{
+    margin: 2%;
+}
+.button1 button{
+    background-color: #2351f5;
+    color: #fff;
+    padding: 10px 25px;
+    font-weight: 400;
+    font-size: 16px;
+    border: 0;
+}
+.button1 span{
+    font-weight: 400;
+    font-size: 16px;
+}
+.para1{
+    width: 80%;
+}
+.para1 h2{
+    font-weight: 600;
+    font-size: 30px;
+}
+.para1 p{
+    font-weight: 400;
+    font-size: 17px;
+}
+.incontent2{
+    margin-right: 0%;
+    gap: 3%;
+}
+.in2{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10%;
+}
+.in2 img{
+    width: 50%;
+    height: fit-content;
+}
+.button2{
+    margin-left: 10%;
+}
+
+.button2 button{
+    font-weight: 400;
+    font-size: 14px;
+    padding: 5px 10px;
+    border: 0;
+}
+.button2 span{
+    font-weight: 400;
+    font-size: 14px;
+}
+.blue button{
+    background-color: #2351f5;
+    color: #fff;
+}
+.in2 p{
+    font-weight: 600;
+    font-size: 23px;  
+    width: 70%;  
+    margin-left: 10%;
+}
+.pink button{
+    background: #FF8484;
+    color: #fff;
+}
+.orange button{
+    background: #FF7C32;
+    color: #fff;
+}
+.green button{
+    background: #23A54F;
+    color: #fff;
+}
+.purple button{
+    background: #9921C3;
+    color: #fff;
+}
+
+@media only screen and (max-width : 950px) {
+    .searchbar input{
+        width: 50%;
+    }
+    .in2 p{
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width : 950px) {
+    .in2 p{
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width : 600px) {
+    .content{
+        flex-direction: column;
+    }
+    .incontent{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .in1 {
+        width:80%;
+    }    
+    .in2{
+        margin: 5%;
+    }
+
+}

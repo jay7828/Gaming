@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,300;0,400;0,500;0,600;1,400;1,500&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,700;0,800;1,200;1,300;1,400;1,600&display=swap');
+*{
+    font-family: 'Popins';
+}
+/* Navbar */
+.nav {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: url("./assest/joystick.png");
+    background-repeat: no-repeat;
+    height: 800px;
+    background-position-x: right;
+    background-size: 45%;
+    
+}
+
+/* Logo */
+.logo {
+    position: absolute;
+    width: 82px;
+    height: 45px;
+    left: 3.5%;
+    top: 37px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 29px;
+    line-height: 153.5%;
+    color: #FFFFFF;
+}
+
+.navop {
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    display: flex;
+    flex-direction: row;
+    gap: 17%;
+    /* transition: 0.2s; */
+    top: 44px;
+   
+
+}
+
+.navop1 {
+    display: flex;
+    width: 50%;
+    gap: 15px;
+    flex-direction: row;
+    /* align-items: flex-start; */
+    padding: 0px;
+    justify-content: space-around;
+    margin-top: 1.5%;
+}
+
+.navop1 a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    position: relative;
+}
+
+
+.navop1 a:after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 3px;
+    bottom: 1px;
+    background-color:#FA9021;
+    transition:0.5s ease-out;
+    left: 0;
+  }
+  
+  .navop1 a:hover:after {
+    transform: scaleX(1);
+    /* transform-origin: bottom left; */
+    width: 100%;
+  }
+
+.navop2 button {
+
+    left: 86.46%;
+    right: 4.39%;
+    top: 0.82%;
+    bottom: 98.41%;
+
+    background: #FA9021;
+    border-radius: 6px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.navop2 button {
+
+    left: 86.46%;
+    right: 4.39%;
+    top: 0.82%;
+    bottom: 98.41%;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+
+    color: #FFFFFF;
+    text-decoration: none;
+
+}
+
+#stick{
+    position: absolute;
+width: 806px;
+height: 761px;
+left: 772px;
+top: 0px;
+}
+
+.menuop {
+    display: none;
+    margin-left: 90%;
+    color: #FFFFFF;
+    font-size: 30px;
+    cursor: pointer;   
+    margin-top: -700px; 
+
+}
+
+.menubartab
+{   display: block;
+    align-items: center;
+    flex-direction: column;
+    float: right;
+    margin-top:10px ;
+}
+
+@media only screen and (max-width: 700px) {
+
+    /* .nav{
+        background: none;
+    } */
+    .navop1{
+        flex-direction: column;
+        align-items: flex-end;
+        
+        gap: 10px;
+    }
+    .navop{
+        height: fit-content;
+        width: 30%;
+        display: "none";
+        flex-direction: column;
+        background: #FA9021;
+        align-items: center;
+        /* justify-content: center; */
+        gap: 15px;
+        right: 5px;
+        /* padding-right: 15px; */
+    } 
+    .menuop
+    {
+        display: flex;
+    }
+}
+
+
+
+@media only screen and (min-width:800px ) and (max-width :1500px)
+
+{
+    .navop
+    {
+        display: flex;
+    }
+}
+
+ /* @media only screen and (max-width: 450p)
+{
+    .nav{
+        background-image: none;
+    
+    }
+
+}   */

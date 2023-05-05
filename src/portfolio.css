@@ -1,0 +1,324 @@
+.PortFolio {
+    font-family: 'Rubik';
+    font-style: normal;
+    color: #FFFFFF;
+    width: 100%;
+}
+
+.porthead {
+    margin-top: 5%;
+
+}
+#porthead{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 6em;
+}
+.Port1 {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#porthead span{
+    font-weight: 600;
+    font-size: 33px;    
+}
+.porthead span {
+    color:
+        #E47500;
+}
+
+.portblock1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #1C140F;
+    border-radius: 10px;
+    width: 70%;
+    height: fit-content;
+    padding: 12px;
+    margin-top: 5%;
+    /* flex-wrap: wrap; */
+   
+}
+
+.porticon {
+    display: flex;
+    align-items: center;
+    height: fit-content;
+    width: 20px;
+    justify-content: space-evenly;
+    padding: 10px;
+    gap: 1em;
+}
+
+/* Background Of icon */
+
+.portim {
+    display: flex;
+    justify-content: center;
+    background-color: beige;
+    border-radius: 50%;
+    padding: 15px 15px;
+    height: fit-content;
+    width: auto;
+    
+}
+.line img
+{   
+    width: 2px;
+    height: 100px ;
+}
+
+/* SPider Images Style */
+
+
+.spider2 {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: fit-content;
+    gap: 5em;
+    margin: 7%;
+}
+
+.img {
+    width: 50%;
+}
+
+
+.spider2 span {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.spider2 p {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.spider2 h4 {
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    width: 100%;
+    font-size: 14px;
+}
+
+.spider2 h4 img {
+    size: 2p;
+    margin-right:2% ;
+}
+
+.spidercontain {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: auto;
+    justify-content: space-around;
+    gap: 1em;
+}
+
+
+/* iMAGES cOLUMN */
+
+.images
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.Portimage {
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    gap: 5em;
+    margin: 15%;
+    margin-bottom: 5%;
+}
+
+.imgcontain {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 25em;
+}
+.imgcontain span{
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.portimage span {
+    font-weight: 500;
+    font-size: 30px;
+}
+
+#readmore{
+    background: #E47500;
+    width: fit-content;
+    padding: 10px 15px;
+}
+/* Feedback */
+.feedbackblock{
+    margin-top: 15%;
+    height: 51.25%;
+    background: #1C140F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 56px;
+    width:auto;
+}
+
+#first
+{   text-align: center;
+    width: 31.4%;
+    font-weight: 500;
+    font-size: 35px;
+}
+#second{
+    font-weight: 400;
+font-size: 14px;
+width: 555px;
+height: 52px;
+text-align: center;
+margin-top: 3%;
+}
+.feedback
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    justify-content: space-around;
+    margin-top: 5%;
+    flex-wrap: wrap;
+}
+.feedback1
+{
+    display: flex;
+    flex-direction: column;
+    background: #0F0901;
+    width: 300px;
+    border-radius: 10px;
+    padding: 2%;
+    margin: 2%;
+    height: fit-content;
+    justify-content: space-between;
+    box-shadow: 0px 0px 10px #E47500;
+}
+
+.feedback1 span
+{ 
+    font-weight: 400;
+    font-size: 14px;
+}
+.Profile
+{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+.profile{
+   background:  #1C140F;
+   box-shadow: 0px 0px 10px #ffffff;
+
+}
+#profileimg{
+    height: 50px;
+}
+
+.Name
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 3%;
+}
+.Name span{
+    font-weight: 500;
+    font-size: 18px;
+}
+.Name p{
+    align-items: center;
+font-weight: 400;
+font-size: 14px;
+color: #4F5665;
+}
+#rating
+{   
+    display: flex;
+    gap: 30%;
+}
+#rating img{
+    height: 17px;
+}
+@media only screen and (max-width : 1000px) {
+    .line{
+        display: none;
+    }
+    
+}
+@media only screen and (max-width : 700px) {
+    .spider2
+    {
+        flex-direction: column;
+    }
+    .img
+    {
+        width: 80%;
+        margin-top: 20px;
+    }
+    .porticon
+    {   
+        flex-direction: column;
+        margin: 10px;
+        text-align: center;
+    }
+    .porticon span{
+        
+        align-items: center;
+    }
+    .portblock1{
+        padding: 3%;
+        height: 100px;
+        margin-top: 20%;
+    }
+    #first{
+        width: 100%;
+    }
+
+    
+}
+@media only screen and (max-width : 819px) {
+    .Portimage{
+        flex-direction: column-reverse;
+        padding: 5%;
+        width: 100%;
+    }
+    .imgcontain {
+
+        width: 90%;
+    }
+    #reverse{
+        flex-direction: column;
+
+    }
+    .feedbackblock span {
+        font-size: 15px;
+        width: 100%;
+    }
+}

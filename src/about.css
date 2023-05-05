@@ -1,0 +1,245 @@
+.about {
+    color: #fff;
+    /* background: #FA8305;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; */
+}
+
+
+/* Top */
+
+.top {
+    
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.top img
+{
+    width: 60%;
+    height: fit-content;
+    margin: 10px;
+}
+
+.intop{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    /* margin-left: 8%; */
+    gap: 3%;
+}
+
+.root{
+    margin-left: 8%;
+}
+
+.root span {
+    color: #FA8305;
+}
+
+.intop0 {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 65%;
+}
+
+.intop h2 {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.intop p {
+    width: fit-content;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.intop1 {
+    width: 50%;
+}
+
+.intop h3 {
+    padding: 10px;
+    font-weight: 500;
+    width: fit-content;
+    font-size: 16px;
+    background: #FA8305;
+    border-radius: 40px;
+    cursor: pointer;
+    margin-bottom:0;
+}
+
+/* tiles */
+.tile {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: flex-start;
+    width: 100%;
+    height: fit-content;
+    margin-top: 10%;
+}
+.tile span {
+    margin-bottom: 5%;
+    font-weight: 600;
+    font-size: 25px;
+    margin-left: 60px;
+}
+
+.intile {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px;
+    height: fit-content;
+}
+
+.tile1 {
+    height: 200px;
+    width: 350px;
+    padding: 40px;
+    margin: 40px;
+    background: #1C140F;
+    border-radius: 20px;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.tile1 span{
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 10px;
+    width: 70%;
+}
+#tilehead1{
+    background: rgba(176, 0, 220, 0.11);
+}
+#tilehead2{
+    background: rgba(220, 66, 0, 0.11);
+}
+#tilehead3{
+    background: rgba(0, 220, 141, 0.11);
+}
+.tile1 h3{
+    font-weight: 600;
+font-size: 20px;
+}
+.tile1 p{
+    font-weight: 400;
+    font-size: 14px;
+}
+
+/* middle */
+
+.middle{
+    /* margin-top: 10%; */
+    background: #1C140F;
+    display: flex;
+    justify-content: space-around;
+    height: fit-content;
+    width: 100%;
+}
+.middle img{
+    margin-top: 10%;
+    width: 40%;
+}
+.inmid{
+    /* margin-top: 10%; */
+    margin-left:5%
+}
+.inmid1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 10%;
+    width: 35%;
+    margin-left: -10%;
+}
+.inmid1 span{
+    font-weight: 500;
+    font-size: 16px;
+}
+.inmid1 h3{
+    font-weight: 600;
+    font-size: 28px;
+}
+.inmid1 p{
+    font-weight: 400;
+font-size: 16px;
+}
+
+/* icontile */
+
+.icontile{
+    /* margin-top: 10%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: fit-content;
+}
+.inicon{
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    padding: auto;
+    height: fit-content;
+    
+}
+.icon1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #1C140F;
+    border-radius: 20px;
+    width: 250px;
+    height: fit-content;
+    padding: 10px;
+    margin: 1.5%;
+}
+/* .icontile span{
+    margin-left: 10%;
+} */
+@media only screen and (max-width : 1028px) {
+    .top
+    {   display: flex;
+        
+        flex-direction: column-reverse;
+    }
+    .intop{
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width : 1200px) {
+    .intop h2{
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width : 1299px) {
+    .middle{
+        margin-top: 45%;
+    }
+}
+@media only screen and (max-width : 875px) {
+    .middle{
+        margin-top: 80%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .inmid{
+        width: 80%;
+    }
+
+}
