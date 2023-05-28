@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Gaming/static/css/main.191cf473.css",
-    "main.js": "/Gaming/static/js/main.7cbe39bc.js",
+    "main.css": "/Gaming/static/css/main.d9837a06.css",
+    "main.js": "/Gaming/static/js/main.151f6bd8.js",
     "static/js/787.62564c4a.chunk.js": "/Gaming/static/js/787.62564c4a.chunk.js",
     "static/media/mountain.png": "/Gaming/static/media/mountain.918b6afc486de0a884b4.png",
     "static/media/Rectangle.png": "/Gaming/static/media/Rectangle.5c7fd11aa704436edb02.png",
@@ -33,12 +33,12 @@
     "static/media/game09.png": "/Gaming/static/media/game09.8fc5ca9d443c147999ec.png",
     "static/media/game08.png": "/Gaming/static/media/game08.d90932329b1df7e025b2.png",
     "index.html": "/Gaming/index.html",
-    "main.191cf473.css.map": "/Gaming/static/css/main.191cf473.css.map",
-    "main.7cbe39bc.js.map": "/Gaming/static/js/main.7cbe39bc.js.map",
+    "main.d9837a06.css.map": "/Gaming/static/css/main.d9837a06.css.map",
+    "main.151f6bd8.js.map": "/Gaming/static/js/main.151f6bd8.js.map",
     "787.62564c4a.chunk.js.map": "/Gaming/static/js/787.62564c4a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.191cf473.css",
-    "static/js/main.7cbe39bc.js"
+    "static/css/main.d9837a06.css",
+    "static/js/main.151f6bd8.js"
   ]
 }
